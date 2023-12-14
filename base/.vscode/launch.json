@@ -1,18 +1,20 @@
 {
-    "version":  "0.2.0",
-    "configurations":  [
-                           {
-                               "type":  "al",
-                               "request":  "launch",
-                               "name":  "Local Sandbox",
-                               "server":  "http://helloworld-current",
-                               "serverInstance":  "BC",
-                               "port":  7049,
-                               "tenant":  "default",
-                               "authentication":  "UserPassword",
-                               "startupObjectId":  22,
-                               "startupObjectType":  "Page",
-                               "breakOnError":  true
-                           }
-                       ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "hardingretail-mastek-dev-bc",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://hardingretail-mastek-dev-bc/BC/",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
 }
