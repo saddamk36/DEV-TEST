@@ -8,6 +8,7 @@ pageextension 50101 CustomerListExt extends "Customer List"
     var
         HelloBase: Codeunit HelloBase;
     begin
+
         Message(HelloBase.GetText());
     end;
 }
