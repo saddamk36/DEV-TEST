@@ -16,6 +16,7 @@ codeunit 50133 "HelloWorld.Test"
     [MessageHandler]
     procedure HelloWorldMessageHandler(Message: Text[1024])
     begin
+feature_saddam
         MessageDisplayed := MessageDisplayed or (Message = 'App Published:HELLO Hello World Base SADDAM & RAVI!');
     end;
 
