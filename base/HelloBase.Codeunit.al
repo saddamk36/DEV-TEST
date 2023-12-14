@@ -3,6 +3,7 @@ codeunit 50130 HelloBase
     trigger OnRun()
     begin
 
+
     end;
 
     procedure GetText() returnvalue: Text;
